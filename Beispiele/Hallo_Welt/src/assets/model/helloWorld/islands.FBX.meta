@@ -1,0 +1,59 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": false,
+  "uuid": "0ab3142a-6968-4073-95af-026bc3b23623",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "seafloor.jpg",
+        "uri": "0ab3142a-6968-4073-95af-026bc3b23623@baeab"
+      },
+      {
+        "name": "stone.jpg",
+        "uri": "0ab3142a-6968-4073-95af-026bc3b23623@eeccb"
+      },
+      {
+        "name": "tree.png",
+        "uri": "0ab3142a-6968-4073-95af-026bc3b23623@3b6f8"
+      }
+    ],
+    "assetFinder": {
+      "meshes": [
+        "0ab3142a-6968-4073-95af-026bc3b23623@2b0a8",
+        "0ab3142a-6968-4073-95af-026bc3b23623@4a7d8",
+        "0ab3142a-6968-4073-95af-026bc3b23623@0e750",
+        "0ab3142a-6968-4073-95af-026bc3b23623@ef86b",
+        "0ab3142a-6968-4073-95af-026bc3b23623@426f2",
+        "0ab3142a-6968-4073-95af-026bc3b23623@754a2",
+        "0ab3142a-6968-4073-95af-026bc3b23623@71919",
+        "0ab3142a-6968-4073-95af-026bc3b23623@1332c",
+        "0ab3142a-6968-4073-95af-026bc3b23623@4d16f",
+        "0ab3142a-6968-4073-95af-026bc3b23623@efe84"
+      ],
+      "skeletons": [],
+      "textures": [
+        "0ab3142a-6968-4073-95af-026bc3b23623@2df3a",
+        "0ab3142a-6968-4073-95af-026bc3b23623@91a84",
+        "0ab3142a-6968-4073-95af-026bc3b23623@0595c"
+      ],
+      "materials": [
+        "70d33758-1c1e-424d-b0ab-eac7410559bf",
+        "a155f93b-7769-4ca4-b75f-b13e52193859",
+        "7bf9df40-4bc9-4e25-8cb0-9a500f949102"
+      ],
+      "scenes": [
+        "0ab3142a-6968-4073-95af-026bc3b23623@cc8e5"
+      ]
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/material",
+    "legacyFbxImporter": true,
+    "fbx": {
+      "smartMaterialEnabled": false,
+      "matchMeshNames": false
+    }
+  }
+}
