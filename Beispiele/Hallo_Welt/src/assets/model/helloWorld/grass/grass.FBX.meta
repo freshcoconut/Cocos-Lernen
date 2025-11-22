@@ -1,10 +1,130 @@
 {
   "ver": "2.3.14",
   "importer": "fbx",
-  "imported": false,
+  "imported": true,
   "uuid": "aade09ee-8f9d-413c-a9e8-8c686ea5e160",
-  "files": [],
-  "subMetas": {},
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "ef5e1": {
+      "importer": "gltf-mesh",
+      "uuid": "aade09ee-8f9d-413c-a9e8-8c686ea5e160@ef5e1",
+      "displayName": "",
+      "id": "ef5e1",
+      "name": "grass.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 77
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "aade09ee-8f9d-413c-a9e8-8c686ea5e160@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "Take 001.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.3333332538604736
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "aade09ee-8f9d-413c-a9e8-8c686ea5e160@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 6
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "80e0c": {
+      "importer": "gltf-embeded-image",
+      "uuid": "aade09ee-8f9d-413c-a9e8-8c686ea5e160@80e0c",
+      "displayName": "",
+      "id": "80e0c",
+      "name": "grass.png.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "9787f": {
+      "importer": "texture",
+      "uuid": "aade09ee-8f9d-413c-a9e8-8c686ea5e160@9787f",
+      "displayName": "",
+      "id": "9787f",
+      "name": "grass.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "aade09ee-8f9d-413c-a9e8-8c686ea5e160@80e0c"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3022b": {
+      "importer": "gltf-scene",
+      "uuid": "aade09ee-8f9d-413c-a9e8-8c686ea5e160@3022b",
+      "displayName": "",
+      "id": "3022b",
+      "name": "grass.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
   "userData": {
     "imageMetas": [
       {
@@ -22,7 +142,8 @@
             "name": "Take 001",
             "from": 0,
             "to": 3.3333332538604736,
-            "wrapMode": 2
+            "wrapMode": 2,
+            "previousId": "73b7f"
           }
         ]
       }
@@ -51,6 +172,24 @@
     "fbx": {
       "smartMaterialEnabled": false,
       "matchMeshNames": false
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
     }
   }
 }
